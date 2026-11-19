@@ -1,16 +1,41 @@
-# React + Vite
+# SANA.DEV — Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal developer portfolio!
 
-Currently, two official plugins are available:
+I'm **Baby Sana Fathima**, a Computer Science graduate and aspiring Frontend Developer passionate about building modern, responsive, and user-friendly web experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About the Project
 
-## React Compiler
+SANA.DEV is my personal portfolio website, designed to showcase my skills, projects, and journey as a developer.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the Oxlint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Featured Projects
+
+- **WebCanvas Studio** — A React-based project built using Context API and useReducer.
+- **BookVault** — A JavaScript application featuring CRUD operations and Local Storage.
+- **College Management System** — An academic team project where I independently handled the complete UI styling.
+
+## Portfolio Sections
+
+- Introduction
+- Featured Projects
+- About Me
+- Technical Skills
+- Contact Information
+
+## Contact
+
+- **Email:** babysanafathima@gmail.com
+- **GitHub:** [babysanafathima](https://github.com/babysanafathima)
+- **LinkedIn:** [Baby Sana Fathima](https://www.linkedin.com/in/babysanafathima/)
+
+---
+
+Designed & Built by **Baby Sana Fathima**.
