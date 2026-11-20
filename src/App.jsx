@@ -1,3 +1,4 @@
+
 import './App.css';
 
 function LaptopVisual() {
@@ -100,6 +101,9 @@ function App() {
         </div>
 
         <div className="project-grid">
+
+          {/* PROJECT 01 — WEBCANVAS STUDIO */}
+
           <article className="project-card">
             <div className="project-number">01 / PROJECT</div>
 
@@ -136,6 +140,8 @@ function App() {
               </a>
             </div>
           </article>
+
+          {/* PROJECT 02 — BOOKVAULT */}
 
           <article className="project-card">
             <div className="project-number">02 / PROJECT</div>
@@ -174,6 +180,8 @@ function App() {
             </div>
           </article>
 
+          {/* PROJECT 03 — COLLEGE MANAGEMENT SYSTEM */}
+
           <article className="project-card">
             <div className="project-number">03 / ACADEMIC PROJECT</div>
 
@@ -209,8 +217,62 @@ function App() {
               </span>
             </div>
           </article>
+
+          {/* PROJECT 04 — SANA.DEV JOURNAL */}
+
+          <article className="project-card">
+            <div className="project-number">04 / PROJECT</div>
+
+            <div className="project-preview journal-preview">
+              <span>THE DEVELOPER JOURNAL</span>
+              <h3>SANA.DEV</h3>
+
+              <div className="journal-preview-content">
+                <div className="journal-preview-line"></div>
+                <div className="journal-preview-line short"></div>
+                <div className="journal-preview-block"></div>
+              </div>
+            </div>
+
+            <div className="project-info">
+              <h3>SANA.DEV — The Developer Journal</h3>
+
+              <p>
+                A personal developer journal built with React and Vite,
+                featuring articles about React, JavaScript, CSS and frontend
+                development, along with my learning journey as a developer.
+              </p>
+
+              <div className="tech-stack">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>Vite</span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://sana-dev-journal.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo ↗
+                </a>
+
+                <a
+                  href="https://github.com/babysanafathima/sana-dev-journal"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
         </div>
       </section>
+
       <section id="about" className="about">
         <div className="about-content">
           <p className="section-label">GET TO KNOW ME</p>
@@ -247,6 +309,7 @@ function App() {
           <p>Always learning. Always building.</p>
         </div>
       </section>
+
       <section id="skills" className="skills">
         <div className="section-heading">
           <p>MY TOOLKIT</p>
@@ -324,7 +387,7 @@ function App() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/babysanafathima/"
+              href="https://www.linkedin.com/in/babysananafathima/"
               target="_blank"
               rel="noreferrer"
             >

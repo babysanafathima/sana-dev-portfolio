@@ -1108,3 +1108,77 @@ img {
     bottom: 15px;
   }
 }
+
+/* ===== SANA.DEV JOURNAL PROJECT ===== */
+
+.journal-preview {
+  background: linear-gradient(135deg, #343b2e, #171d16);
+  border: 1px solid #59674b;
+}
+
+.journal-preview > span {
+  color: #c1d49b;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.journal-preview h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 34px;
+  letter-spacing: -1.5px;
+  color: #f4f5e9;
+}
+
+.journal-preview-content {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  width: 55%;
+  height: 90px;
+  padding: 15px;
+  background: #f2f0e6;
+  border-radius: 6px 6px 0 0;
+  transform: rotate(-5deg);
+  box-shadow: 0 8px 20px #0005;
+}
+
+.journal-preview-line {
+  width: 85%;
+  height: 6px;
+  margin-bottom: 9px;
+  border-radius: 5px;
+  background: #59674b;
+}
+
+.journal-preview-line.short {
+  width: 50%;
+  background: #a5aa8b;
+}
+
+.journal-preview-block {
+  width: 65%;
+  height: 22px;
+  margin-top: 12px;
+  border-radius: 3px;
+  background: #d6d8c7;
+}
+
+/* JOURNAL PROJECT LINKS */
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  align-items: center;
+}
+
+.project-links a {
+  display: inline-block;
+  color: #37dc91;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.project-links a:hover {
+  color: #a0f4c3;
+}
